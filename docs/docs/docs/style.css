@@ -1,0 +1,84 @@
+/* Universal Selector */
+* {
+    font-family: Arial, sans-serif;
+}
+
+/* Element Selector */
+body {
+    background-color: #0f172a;
+    color: #e5e7eb;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* ID Selector */
+#main {
+    padding: 20px;
+}
+
+/* Class Selector */
+.name {
+    color: #38bdf8;
+    font-weight: bold;
+}
+
+header {
+    background: #020617;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #22c55e;
+}
+
+nav {
+    background: #1e293b;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #facc15;
+    margin: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    padding: 20px;
+}
+
+.box {
+    background: #020617;
+    padding: 20px;
+    border: 2px solid #38bdf8;
+    border-radius: 10px;
+    width: 70%;
+}
+
+.sidebar {
+    margin-left: 20px;
+    padding: 15px;
+    border: 2px dashed #22c55e;
+}
+
+.float-left {
+    float: left;
+    width: 150px;
+    margin: 10px;
+}
+
+.float-right {
+    float: right;
+    width: 150px;
+    margin: 10px;
+}
+
+footer {
+    background: #020617;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #22c55e;
+}
